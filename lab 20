@@ -1,0 +1,19 @@
+#include<iostream>
+#include<cmath>
+#include "lab20-triangle.cpp"
+
+int main(){
+    triangle tr;
+    tr.setTriangle(10.0f,20.0f);
+    tr.perimeter();
+    tr.area();
+    
+    
+    Rectangle rec;
+    rec.setRectangle(10,20);
+    rec.perimeter();
+    rec.area();
+
+    return 0;
+
+}
